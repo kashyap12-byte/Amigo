@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+  }
+ .section{
+  
+  height: 100vh;
+  width: 100%; 
+ }
+ /*--------------------------------
+ Problems Section
+ -------------------------------*/
+
+ .problem-section{
+     background-color: #222222;
+     
+ }
+ .carousel-container{
+     width: 700px;
+     position: absolute;
+     left: 10%;
+    
+ }
+ .problem-header{
+     padding-top: 150px;
+     padding-bottom: 50px;
+     font-family: 'Sitara',sans-serif;
+     font-size: 30px;
+     text-align: left;
+     color: #fff;
+ }
+ .solution{
+     color: #fff;
+     text-align: left;
+ }
+ .arrow-svg{
+     padding-top: 50px;
+     display: flex;
+ }
+ .arrow-svg-left{
+     cursor: pointer;
+ }
+ .arrow-svg-right{
+     cursor: pointer;
+   margin-left: 30px;
+ }
+.carousel-item{
+    transition: ease-in 0.7s;
+}
+  .problem-guy{
+      display: flex;
+      float: right;
+      margin-top: 100px;
+      margin-right: 100px;
+    overflow: hidden;
+  }
+ @media screen and (max-width:700px){
+    .problem-header{
+        color: #fff;
+        padding-top: 250px;
+        padding-bottom: 50px;
+        font-family: 'Sitara',sans-serif;
+        font-size: 20px;
+        text-align: left;
+    }
+    .solution{
+        color: #fff;
+        text-align: left;
+        font-family: 'Sitarar',sans-serif;
+        font-size: 16px;
+    }
+     .carousel-container{
+         width: auto;
+         left: 0%;
+     }
+    .problem-guy{
+        display: none;
+    }
+     
+ }
+ 
+ 
